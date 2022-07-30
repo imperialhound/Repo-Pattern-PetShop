@@ -2,6 +2,7 @@ from domain.models.order import Order
 from repositories.inventoryrepo.interface import AbstractInventoryRepository
 from domain.models.status import Status
 
+# AS you can see the service recieves the repository without knowledge of what the original data source is. 
 
 class InventoryService:
 

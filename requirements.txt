@@ -1,0 +1,3 @@
+fasttext
+pydantic 
+uvicorn
